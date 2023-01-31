@@ -19,7 +19,7 @@ def generate(model, tokenizer, input):
     prompt = input
 
 
-    openai.api_key = "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"
+    openai.api_key = [OpenAI_Key]
     #print(input)
 
     rate_limit_per_minute = 20
